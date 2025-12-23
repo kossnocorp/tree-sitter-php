@@ -31,13 +31,13 @@ include = [
 path = "bindings/rust/lib.rs"
 
 [dependencies]
-tree-sitter-language = { git = "https://github.com/kossnocorp/tree-sitter", rev = "fdebe5619f6a64b1edd518864eae706b69e09fd3" }
+tree-sitter-language = { git = "https://github.com/kossnocorp/tree-sitter", branch = "wasm-all" }
 
 [build-dependencies]
 cc = "1.1"
 
 [dev-dependencies]
-tree-sitter = { git = "https://github.com/kossnocorp/tree-sitter", rev = "fdebe5619f6a64b1edd518864eae706b69e09fd3" }
+tree-sitter = { git = "https://github.com/kossnocorp/tree-sitter", branch = "wasm-all" }
 
 # NOTE: Use these for local development with path overrides:
 
@@ -47,3 +47,5 @@ tree-sitter = { git = "https://github.com/kossnocorp/tree-sitter", rev = "fdebe5
 
 # [patch."https://github.com/kossnocorp/tree-sitter-php"]
 # tree-sitter-php = { path = "../tree-sitter-php" }
+
+[workspace]
