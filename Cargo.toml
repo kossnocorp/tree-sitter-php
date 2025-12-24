@@ -31,13 +31,13 @@ include = [
 path = "bindings/rust/lib.rs"
 
 [dependencies]
-tree-sitter-language = { git = "https://github.com/kossnocorp/tree-sitter", branch = "wasm-all" }
+tree-sitter-language = { git = "https://github.com/kossnocorp/tree-sitter", branch = "wasm-malloc" }
 
 [build-dependencies]
 cc = "1.1"
 
 [dev-dependencies]
-tree-sitter = { git = "https://github.com/kossnocorp/tree-sitter", branch = "wasm-all" }
+tree-sitter = { git = "https://github.com/kossnocorp/tree-sitter", branch = "wasm-malloc" }
 
 # NOTE: Use these for local development with path overrides:
 
