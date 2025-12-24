@@ -183,7 +183,7 @@ dependencies = [
 [[package]]
 name = "tree-sitter"
 version = "0.27.0"
-source = "git+https://github.com/kossnocorp/tree-sitter?branch=wasm-all#2e4d056a200fb10c3fce4e5ac16457dc2cc39322"
+source = "git+https://github.com/kossnocorp/tree-sitter?branch=wasm-malloc#0961d21b1a492f844abe36a7545152fdbb82dd7a"
 dependencies = [
  "cc",
  "regex",
@@ -196,7 +196,7 @@ dependencies = [
 [[package]]
 name = "tree-sitter-language"
 version = "0.1.7"
-source = "git+https://github.com/kossnocorp/tree-sitter?branch=wasm-all#2e4d056a200fb10c3fce4e5ac16457dc2cc39322"
+source = "git+https://github.com/kossnocorp/tree-sitter?branch=wasm-malloc#0961d21b1a492f844abe36a7545152fdbb82dd7a"
 
 [[package]]
 name = "tree-sitter-php"
